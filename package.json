@@ -2,15 +2,19 @@
   "name": "discord-bot-maker-bot",
   "author": "Robert Borghese",
   "main": "bot.js",
-  "scripts": {"start": "node bot.js"},
   "version": "1.6.10",
   "dependencies": {
     "discord.js": "^12.2.0",
     "fstorm": "latest",
+    "hh-mm-ss": "^1.2.0",
     "jimp": "latest",
     "libsodium-wrappers": "latest",
     "opusscript": "latest",
-    "ytdl-core": "latest"
+    "request": "^2.88.2",
+    "simple-youtube-api": "^5.2.1",
+    "valid-url": "^1.0.9",
+    "ytdl-core": "latest",
+    "ytsr": "^3.3.1"
   },
   "is-music-bot": true
 }
